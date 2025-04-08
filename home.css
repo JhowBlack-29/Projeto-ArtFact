@@ -138,3 +138,26 @@ nav i {
     margin-top: 0;
     margin-bottom: 14px;
 }
+
+.rodape {
+    background-color: #7D313E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 75px 0;
+}
+
+.rodape h2 {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.redes {
+    display: flex;
+    gap: 50px;
+}
+
+.rodape img {
+    width: 48px;
+}
