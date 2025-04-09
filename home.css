@@ -11,11 +11,19 @@ body {
     overflow-x: hidden;
 }
 
+h1 {
+    font-family: "Elsie Swash Caps", serif;
+    font-weight: 900;
+    color: #7D313E;
+    margin-bottom: 28px;
+    font-size: 40px;
+}
+
 h2 {
     font-family: "Elsie Swash Caps", serif;
     font-weight: 900;
     color: #7D313E;
-    margin-bottom: 12px;
+    margin-bottom: 28px;
     font-size: 32px;
 }
 
@@ -28,7 +36,7 @@ h3 {
 }
 
 p {
-    margin-bottom: 24px;
+    margin-bottom: 28px;
 }
 
 .cabecalho {

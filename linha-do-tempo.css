@@ -1,0 +1,18 @@
+.titulo-pagina {
+    width: 590px;
+    margin-left: 120px;
+    margin-top: 112px;
+}
+
+.textos {
+    margin: 150px 120px;
+}
+
+.textos h2 {
+    margin-top: 52px;
+    margin-right: 8px;
+}
+
+.textos p {
+    text-align: justify;
+}
