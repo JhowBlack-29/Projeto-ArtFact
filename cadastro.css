@@ -1,35 +1,20 @@
-body {
-    overflow: hidden;
+.dados-cadastro {
+    margin-top: 100px;
 }
 
-img {
-    width: 40%;
-}
-
-.login-cadastro {
-    display: flex;
-    gap: 200px;
-}
-
-.dados {
-    width: 460px;
-    margin-top: 200px;
-    padding: 0;
-}
-
-.dados p {
+.dados-cadastro p {
     margin-top: 8px;
     margin-bottom: 8px;
     color: #7D313E;
     font-weight: 600;
 }
 
-.dados h2 {
+.dados-cadastro h2 {
     text-align: center;
 
 }
 
-.dados input {
+.dados-cadastro input {
     height: 40px;
     width: 460px;
     background-color: #E6E6E6;
@@ -38,7 +23,7 @@ img {
     border-bottom-right-radius: 50px;
 }
 
-.dados button {
+.dados-cadastro button {
     background-color: #7D313E;
     color: #fff;
     height: 40px;
@@ -47,13 +32,13 @@ img {
     border: none;
 }
 
-.dados nav {
+.dados-cadastro nav {
     display: flex;
     justify-content: space-between;
     margin: 0;
 }
 
-.dados a {
+.dados-cadastro a {
     color: #7D313E;
     margin-bottom: 40px;
     margin-top: 12px;
