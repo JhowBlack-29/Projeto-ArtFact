@@ -1,0 +1,23 @@
+.titulo-pagina {
+    width: 590px;
+    margin-left: 120px;
+    margin-top: 112px;
+}
+
+.nomes {
+    margin: 150px 120px;
+}
+
+.nomes p {
+    text-align: justify;
+}
+
+.nomes h2 {
+    
+}
+
+.artist {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
