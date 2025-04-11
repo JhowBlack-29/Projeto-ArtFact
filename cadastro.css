@@ -32,6 +32,12 @@
     border: none;
 }
 
+.dados-cadastro button > a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 .dados-cadastro nav {
     display: flex;
     justify-content: space-between;
