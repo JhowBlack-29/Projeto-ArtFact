@@ -44,6 +44,7 @@ p {
     display: flex;
     justify-content: space-between;
     height: 64px;
+    width: 100%;
     align-items: center;
 }
 
@@ -117,17 +118,20 @@ nav i {
 
 .artistas {
     margin-top: 44px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .linha {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .artista {
     display: flex;
     background-color: #272423;
-    width: 387px;
+    width: 30%;
     margin-bottom: 20px;
     margin-right: 20px;
     border-radius: 100px;
@@ -154,6 +158,7 @@ nav i {
     justify-content: center;
     gap: 35px;
     padding: 75px 0;
+    width: 100%;
 }
 
 .rodape h2 {
