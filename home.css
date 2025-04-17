@@ -174,3 +174,49 @@ nav i {
 .rodape img {
     width: 48px;
 }
+
+.menu-hamburguer {
+    display: none;
+}
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 768px) {
+    .cabecalho {
+        height: 130px;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin-left: 12px;
+        margin-bottom: 6px;
+        margin-top: 72px;
+    }
+
+    .menu-hamburguer {
+        display: block;
+        margin-right: 12px;
+        margin-bottom: 6px;
+        margin-top: 72px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .pesquisa {
+        display: none;
+    }
+
+    .sobre-nos {
+        margin: 80px 20px;
+    }
+
+    .rodape {
+        flex-direction: column;
+        gap: 12px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+}
