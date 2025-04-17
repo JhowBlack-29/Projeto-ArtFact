@@ -185,22 +185,18 @@ nav i {
     .cabecalho {
         height: 130px;
         justify-content: space-between;
+        padding: 20px;
     }
 
     .logo {
-        margin-left: 12px;
-        margin-bottom: 6px;
-        margin-top: 72px;
+        margin: 0;
     }
 
     .menu-hamburguer {
         display: block;
-        margin-right: 12px;
-        margin-bottom: 6px;
-        margin-top: 72px;
     }
 
-    nav {
+    .center {
         display: none;
     }
 
@@ -208,8 +204,9 @@ nav i {
         display: none;
     }
 
-    .sobre-nos {
-        margin: 80px 20px;
+    .banner {
+        width: 300%;
+        margin-left: -100%;
     }
 
     .rodape {
@@ -218,5 +215,25 @@ nav i {
         padding-top: 30px;
         padding-bottom: 30px;
         text-align: center;
+    }
+}
+
+@media (max-width: 1023px) {
+
+    .sobre-nos {
+        margin: 80px 20px;
+    }
+
+    .nomes-iconicos {
+        margin: 20px;
+    }
+
+    .linha {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .artista {
+        width: 100%;
     }
 }
