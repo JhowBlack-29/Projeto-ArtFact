@@ -12,12 +12,58 @@
     text-align: justify;
 }
 
-.nomes h2 {
-    
-}
-
 .artist {
     display: flex;
     align-items: flex-start;
     gap: 40px;
+}
+
+@media (max-width: 768px) {
+    
+    .cabecalho {
+        height: 130px;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .menu-hamburguer {
+        display: block;
+    }
+
+    .center {
+        display: none;
+    }
+
+    .pesquisa {
+        display: none;
+    }
+
+    .banner {
+        width: 300%;
+        margin-left: -100%;
+    }
+
+    .rodape {
+        flex-direction: column;
+        gap: 12px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1023px) {
+
+    .nomes {
+        margin: 80px 20px;
+    }
+
+    .titulo-pagina {
+        margin: 80px 20px;
+        width: 70%;
+    }
 }

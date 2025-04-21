@@ -182,6 +182,7 @@ nav i {
 /*RESPONSIVIDADE*/
 
 @media (max-width: 768px) {
+    
     .cabecalho {
         height: 130px;
         justify-content: space-between;
@@ -219,6 +220,24 @@ nav i {
 }
 
 @media (max-width: 1023px) {
+
+    .cabecalho {
+        height: 130px;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .center {
+        display: none;
+    }
+
+    .menu-hamburguer {
+        display: block;
+    }
 
     .sobre-nos {
         margin: 80px 20px;
