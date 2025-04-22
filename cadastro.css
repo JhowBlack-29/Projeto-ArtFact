@@ -50,3 +50,35 @@
     margin-top: 12px;
     text-decoration: underline;
 }
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 768px) {
+    .login-cadastro img {
+        display: none;
+    }
+
+    .login-cadastro {
+        background-image: url("assets/img/Davi.png");
+        height: 100vh;
+    }
+
+    .dados-cadastro {
+        margin: 20px 20px;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+
+    .dados-cadastro input {
+        width: 400px;
+    }
+
+    .dados-cadastro button {
+        width: 400px;
+    }
+
+    .dados-cadastro a {
+        margin-bottom: 20px;
+    }
+}
